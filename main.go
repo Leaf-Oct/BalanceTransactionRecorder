@@ -9,11 +9,11 @@ import (
 )
 
 type Transaction struct {
-	Date        string
-	Description string
-	IsExpand    bool
-	Number      float64
-	Balance     float64
+	Date        string  `json:"date"`
+	Description string  `json:"description"`
+	IsExpand    bool    `json:"isExpanse"`
+	Number      float64 `json:"number"`
+	Balance     float64 `json:"balance"`
 }
 
 func main() {
